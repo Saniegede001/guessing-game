@@ -1,0 +1,84 @@
+h1 {
+    text-align: center;
+}
+
+.super-div {
+    max-width: 450px;
+    margin: auto;
+}
+
+#screen {
+    font-size: 25px;
+    padding: 1px 5px;
+}
+
+.record {
+    display: flex;
+    justify-content: space-between;
+}
+
+#score, #chances {
+    background-color: aliceblue;
+    height: 30px;
+    width: 150px;
+    color: #000;
+    font-weight: 600;
+}
+
+.container {
+    max-width: 450px;
+    margin: auto;
+    padding: 5px;
+    border: 2px solid #999;
+}
+
+#screen {
+    height: 70px;
+    margin-bottom: 15px;
+    background-color: #999;
+    color: #000;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 400px;
+    margin: auto;
+    border: 2px solid #999;
+}
+
+.button {
+    text-align: center;
+    border: 1px solid #fff;
+    padding: 10px 0;
+    cursor: pointer;
+    margin: 4px;
+}
+
+.button:hover {
+   background: rgb(2, 43, 43)
+}
+
+.button:active {
+   opacity: 40%;
+}
+
+#restart {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    background-color: rgb(185, 11, 11);
+}
+
+#hint {
+    width: 50px;
+    margin: 6px 2px;
+    padding: 5px 1px;
+    border: 2px solid #270000;
+    background-color: #999;
+    text-align: center;
+    cursor: pointer;
+}
+
+#hint:active {
+    opacity: 40%;
+}
