@@ -12,7 +12,7 @@ let scoreValue = 0;
 score.innerText = `Your Score: ${scoreValue}`
 
 const chances = document.getElementById('chances')
-let chancesValue = 2
+let chancesValue = 4
 chances.innerText= `Your Chances: ${chancesValue}`
 
 // const next = getElementById('next')
